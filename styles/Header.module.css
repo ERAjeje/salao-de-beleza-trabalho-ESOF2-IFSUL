@@ -1,0 +1,31 @@
+.div {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    position: fixed;
+    top: 0;
+    background-color: var(--secundary-color);
+    box-shadow: 1px 1px 15px var(--terciary-color);
+    width: 100%;
+    min-height: 6rem;
+}
+
+.header {
+    display: flex;
+    flex: 1;
+    padding-left: 12rem;
+    padding-right: 12rem;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 1px 1px 7px var(--terciary-color);
+    width: 100%;
+    min-height: 6rem;
+}
+
+.image {
+    display: flex;
+}
+
+.nav {
+    display: flex;
+}
