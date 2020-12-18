@@ -3,9 +3,9 @@ import React from 'react'
 export default function Footer() {
     return (
         <footer>
-            <h6>
+            <span>
                 Developed by Edson Ajeje and Thayron Oliveira
-            </h6>
+            </span>
         </footer>
     )
 }
