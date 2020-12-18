@@ -66,9 +66,11 @@ export default function Clients() {
                       <ListGroupItem key={client.id}>
                         <Row>
                           <Col xs='2'>
-                            <span>{client.id}</span>
+                            <span>Código</span>
+                            <h6 className={styles.h6Codigo}>{client.id}</h6>
                           </Col>
                           <Col xs='6'>
+                            <span>Cliente</span>
                             <h6>{client.name}</h6>
                           </Col>
                           <Col>
