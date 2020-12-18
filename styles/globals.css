@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #f3e5f5;
-  --secundary-color: #f8bbd0a1;
-  --terciary-color: #f8bbd0;
-  --accent-color: #880e4f;
+  --primary-color: #f2e8ff !important;
+  --secundary-color: #ddbbf8 !important;
+  --terciary-color: #e1bee7 !important;
+  --accent-color: #4a148c !important;
 }
 html,
 body {
@@ -13,7 +13,7 @@ body {
 }
 
 a {
-  color: inherit;
+  color: var(--accent-color) !important;
   text-decoration: none;
 }
 
@@ -24,6 +24,7 @@ ul {
 }
 
 li {
+  color: var(--accent-color);
   padding-left: 2rem;
 }
 
@@ -32,6 +33,15 @@ li:hover {
   font-size: medium;
   padding-left: 1.75rem;
   text-decoration: underline;
+}
+
+Link {
+  color: #4a148c;
+}
+
+
+span {
+  font-size: x-small;
 }
 
 * {
