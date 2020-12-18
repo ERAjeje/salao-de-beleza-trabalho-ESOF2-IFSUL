@@ -1,9 +1,9 @@
 import Head from 'next/head'
-import Header from '../components/header/Header'
-import Footer from '../components/footer/Footer'
+import Login from '../components/login/Login';
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+
   return (
     <div className={styles.container}>
       <Head>
@@ -12,10 +12,8 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Header />
+        <Login />
       </main>
-
-      <Footer className={styles.footer} />
     </div>
   )
 }
